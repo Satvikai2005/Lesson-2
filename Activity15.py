@@ -1,16 +1,5 @@
-x = 55
-y = 66 
-z = 0 
-if x and y and z:
-    print("One of them is true.")
+x = int(input("Enter a number here please: "))
+if x%2!=0:
+    print("The number provided, was odd.")
 else:
-    print("Everything is false.")
-
-x = 105
-y = 0 
-z = 55
-if x or y or z:
-    print("One of them is true.")
-else:
-    print("None of them is true.")
-    
+    print("The provided number was even.")
