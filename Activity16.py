@@ -8,4 +8,5 @@ elif bmi<24.9:
 elif bmi<29.9:
     print("Your fat.")
 else:
+
     print("Obesity.")
