@@ -1,5 +1,6 @@
-number = input("Enter a number here: ")
-number_of_digits = len(number)
-print(f"Number of digits in the nmber provided: {number_of_digits}")
-
+x = float(input("Enter a number here "))
+while x > 0:
+    the_one_left_ = x % 2
+    x = x // 2 
+    print(the_one_left_)
  
