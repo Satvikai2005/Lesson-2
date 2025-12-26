@@ -8,8 +8,9 @@ def shutdown():
     elif user_input.lower() == "no":
         print("Not shutting down")
     else:
-        print("Sorry")
+        print("Please select an option")
 
 # Calling the function
 shutdown()
+
 
