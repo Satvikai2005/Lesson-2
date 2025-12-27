@@ -1,15 +1,13 @@
-def factorial(number):
-    '''
-    Calculating the factorial of a given number.
-    '''
-    if number == 0 or number == 1:
-        return 1
-    else:
-        return number * factorial(number - 1)
-number = int(input("Enter a number to calculate its factorial: "))
-result = factorial(number)
-print(f"The factorial of {number} is {result}.")
-
+Text = input("Enter some text: ")
+A_found = False
+for i in Text:
+    if i == 'A':
+        A_found = True
+        print("A is found.")
+        break
+if not A_found:
+    print("A is not found.")
+    
 
 
 
