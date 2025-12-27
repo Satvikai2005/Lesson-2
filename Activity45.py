@@ -1,13 +1,14 @@
-Text = input("Enter some text: ")
-A_found = False
-for i in Text:
-    if i == 'A':
-        A_found = True
-        print("A is found.")
-        break
-if not A_found:
-    print("A is not found.")
-    
+x = int(input("Enter a number: "))
+if x % 20 == 0:
+    print("Twist")
+elif x % 15 == 0:
+    pass
+elif x % 5 == 0:
+    print("fizz")
+elif x % 3 == 0:
+    print("buzz")
+else:
+    print(x)    
 
 
 
