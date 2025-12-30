@@ -1,5 +1,15 @@
-bill_amount = int(input("Enter the total bill amount:$"))
-bill_amount_gave = int(input("Enter the amount you gave:$"))
-change = bill_amount_gave - bill_amount
-print(f"Your change is ${change}")
-
+rows = int(input("Enter the number of rows you want: "))
+space = (rows)**2
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print("*" ,end=" ")
+    #print(space,end="")
+    space = space-(rows-1) 
+    #print(space,end="")
+    for l in range(space+1):
+        print(" ", end="") 
+    for k in range(1, i + 1):
+        print("*" ,end=" ")
+    print() 
+    
+    
