@@ -1,11 +1,13 @@
 tuple = (1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1)
 sunny = 0
 rainy = 0
-for weather in tuple:
-    if tuple[weather] == 0:
+i = 0
+while i in tuple:
+    if tuple[i] == 0:
         sunny += 1
     else:
         rainy += 1
+    i += 1
 if sunny > rainy:
     print("The weather is mostly sunny.")
 else:
